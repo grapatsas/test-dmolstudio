@@ -1,0 +1,2 @@
+document.querySelectorAll('.menu').forEach(btn=>btn.addEventListener('click',()=>document.querySelector('.mobile-nav').classList.toggle('open')));
+const form=document.querySelector('#inquiry-form'); if(form){form.addEventListener('submit',e=>{e.preventDefault();document.querySelector('#form-msg').textContent='Demo only — connect this form to Formspree, Resend, HubSpot or your CRM before launch.';});}
